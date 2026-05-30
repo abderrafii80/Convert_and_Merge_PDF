@@ -1,0 +1,18 @@
+PDFFusion/
+│
+├── main.py                # point d’entrée (UI)
+│
+├── ui/
+│   └── main_window.py    # interface PyQt6
+│
+├── core/
+│   ├── merger.py        # fusion PDF + images
+│   ├── compressor.py    # compression intelligente
+│   └── utils.py         # helpers (taille, conversion)
+│
+├── temp/
+│
+├── output/
+│
+├── requirements.txt
+└── README.md
